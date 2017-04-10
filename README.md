@@ -18,9 +18,9 @@ ruby 2.3.1p112
 
 A step by step series of examples that tell you have to use the tool:
 
-Run the script and leave the doublequotes open, than hit Enter:
+Run the script by passing the operator: {"&&", "||", "|", ";", etc.} and leave the doublequotes for the commands to be entered open, than hit Enter:
 ```
-ruby commandjoiner.rb "
+ruby commandjoiner.rb ";" "
 ```
 
 Paste the commands that you want to be joined. Press Enter for each new command
